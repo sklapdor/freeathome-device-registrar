@@ -5,7 +5,7 @@ from freeathome.register_devices import register_device
 
 if len(sys.argv) != 3:
     print("Usage: python main.py <devices_file> <accesspoint_url>")
-    print("Example: python main.py devices.txt http://192.168.1.204")
+    print("Example: python main.py devices.txt http://192.168.100.104")
     sys.exit(1)
 
 devices_file = sys.argv[1]
